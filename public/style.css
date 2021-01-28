@@ -1,0 +1,9 @@
+.ReviewSummary {
+  background: transparent;
+  border: 0;
+  padding: 20px 0 0;
+  margin: 10 auto;
+max-width: 1000px;
+display: flex;
+flex-direction: column;
+}
