@@ -5,6 +5,16 @@
 
 
 module.exports = {
+  service1: {
+    api: '/search/',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
+  },
+  service2: {
+    api: '/shoes',
+    url: 'http://localhost:3002',
+    bundle: 'bundle.js',
+  },
   service3: {
     api1: '/reviews/',
     api2: '/reviews/recent',
@@ -15,6 +25,11 @@ module.exports = {
     api7: '/reviews/lowest10',
     api8: '/reviews/:id',
     url: 'http://localhost:3003',
-    bundle: 'bundle.js'
-  }
+    bundle: 'bundle.js',
+  },
+  service4: {
+    api: '/relatedProducts',
+    url: 'http://localhost:3004',
+    bundle: 'bundle.js',
+  },
 }
