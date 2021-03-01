@@ -10,12 +10,13 @@ module.exports = {
     url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
-  service2: {
-    api: '/shoes',
-    url: 'http://localhost:3002',
-    bundle: 'bundle.js',
-  },
+  // service2: {
+  //   api: '/shoes',
+  //   url: 'http://localhost:3002',
+  //   bundle: 'bundle.js',
+  // },
   service3: {
+    api0: '/shoes',
     api1: '/reviews/',
     api2: '/reviews/recent',
     api3: '/reviews/recent10',

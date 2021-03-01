@@ -3,11 +3,3 @@
   height: 100%;
   position: relative;
 }
-
-#service3 {
-  position: absolute;
-  top: 64%;
-  right: 6%;
-  width: 300px;
-  z-index: 0;
-}
